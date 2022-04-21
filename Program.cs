@@ -6,7 +6,7 @@ namespace DayCount
     {
         static void Main(string[] args)
         {
-            int Count = System.DateTime.UtcNow.DayOfYear;
+            int Count = DateTime.Now.DayOfYear;
             MessageBox.Show( Count.ToString() , "Current Day");
         }
     }
